@@ -1,0 +1,13 @@
+To run this script, you'll need:
+  1.Python 2.7
+  2.The pip package management tool.
+  3.Access to the internet and a web browser.
+  4.A Google account with Gmail enabled.
+  
+Once all the above mentioned points are taken care of, follow the instructions given at https://developers.google.com/gmail/api/quickstart/python
+
+After downloading the 'client_secret.json' credential file in the current directory, create two text files. Name the first file as 'email_body.txt' and the other one as 'emailid.txt'. First file will store the Email-Body and the other will store the email-ids of recipients. Store an email-id in each line without placing any delimiter. When all the steps are done, execute the script and follow the instructions. At the time of first execution, a browser window will pop up asking you to authenticate your application. Upon successful execution, emails would be sent to all the recipients whose emailids you have mentioned in the text file.  
+
+For any query or suggestions, feel free to contact me at : tarpitsahu@gmail.com
+
+Cheers !
